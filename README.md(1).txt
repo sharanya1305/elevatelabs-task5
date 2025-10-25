@@ -13,13 +13,6 @@ The goal of this task was to capture live network traffic using **Wireshark** on
 
 ---
 
-## 📂 Repository Contents
-- `task5.pcap` → The raw packet capture file exported from Wireshark.  
-- `/screenshots` → Folder containing screenshots of DNS, TCP, and HTTP/HTTPS traffic (filters applied).  
-- `README.md` → Documentation (this file).  
-
----
-
 ## 🔎 Steps Performed
 1. Launched **Wireshark** in Kali Linux.
 2. Selected the **eth0** interface and started packet capture.
@@ -83,4 +76,5 @@ The goal of this task was to capture live network traffic using **Wireshark** on
 ## 📌 Next Steps
 - Capture and analyze additional protocols (e.g., ICMP, ARP, FTP) for practice.  
 - Explore **Wireshark export features** (e.g., CSV, JSON) for automated analysis.  
+
 - Use filters with complex expressions (e.g., `tcp && ip.src==192.168.1.105`) for targeted investigation.
